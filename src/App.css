@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+:root {
+  --primary-white: #fff;
+  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-orange: #f9ab00;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/***************NAVBAR*********************/
+.nav-pill a:active, a.active:hover {
+  background-color: red;
+}
+
+/***************NAVBAR LINKS*********************/
+ a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+span.navbar-toggler-icon {
+  border-top: solid var(--primary-orange);
+  border-bottom: solid var(--primary-orange);
+}
+
+
+
+
+  /************************HEADER**************************/
+  .header-wrapper {
+    position: relative;
+    background: url(./components/assets/images/horizon-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .main-info {
+    display: flex;
+    position: absolute;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .main-info h1 {
+    color: aliceblue;
+    text-transform: uppercase;
   }
-}
+  
+  
