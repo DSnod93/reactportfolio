@@ -57,7 +57,7 @@ span.navbar-toggler-icon {
   text-transform: uppercase;
 }
 
-/* ***********************ABOUT ME************************* */
+/************************ABOUT ME************************* */
 
 .border-line {
   border: solid black;
@@ -65,3 +65,8 @@ span.navbar-toggler-icon {
   margin-left: 0;
 }
 
+/************************CONTACT FORM************************* */
+.form-group {
+  width: 500px;
+  margin: 0 auto 0 auto;
+}
