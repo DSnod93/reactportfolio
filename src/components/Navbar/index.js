@@ -10,11 +10,11 @@ const MainNav = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" >
                     <Nav className="ml-auto nav-pill" >
-                        <Nav.Link className="text-white" href="#about">
+                        <Nav.Link className="text-white" to="/about">
                             <FontAwesomeIcon icon={faPortrait} /> &nbsp;
                             About
                         </Nav.Link>
-                        <Nav.Link className="text-white" href="#projects">
+                        <Nav.Link className="text-white" to="/projects">
                             <FontAwesomeIcon icon={faProjectDiagram} />  &nbsp;
                             Projects
                         </Nav.Link>
