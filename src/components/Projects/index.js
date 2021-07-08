@@ -10,6 +10,9 @@ import work3 from '../images/workday.JPG';
 const Projects = () => {
     return (
         <Container className="text-center" fluid>
+            <div>
+                <h2 className="m-5 p-5">Projects</h2>
+            </div>
             <Row>
                 <Col md={true}>
                     <Image src={project1} width="300" />

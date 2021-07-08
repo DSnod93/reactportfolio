@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import me from '../images/me.jpg';
 
 
@@ -16,12 +16,12 @@ const AboutMe = () => {
                         My name is Douglas Snoddy. I am a bootcamp graduate with extensive background in coding languages, frameworks, and building user-friendly web applications. I have knowledge and experience using Javascript. Professional strengths include creative problem-solving, written and verbal communication, and time management. Patience and desire to continue growing and learning.
                     </p>
                     <span >
-                        <FontAwesomeIcon icon={faArrowDown} size='5x' className="abt-arrow"/> &nbsp;
+                        <FontAwesomeIcon icon={faArrowRight} size='5x' className="abt-arrow"/> &nbsp;
                     </span>
                 </Col>
                 <div>
                     <div>
-                        <Image src={me} fluid width="424" />
+                        <Image src={me} fluid width="500" />
                     </div>
                 </div>
             </Row>
